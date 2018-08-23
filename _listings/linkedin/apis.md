@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linked
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Ticker
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +21,7 @@ apis:
   tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
     Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
     SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
-    Relative Data, Pedestal
+    Relative Data, Pedestal, Relative StreamRank, StreamRank
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/linkedin/companiesididnametickerdescription-get-openapi.md
@@ -37,6 +37,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/linkedin/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://link.fish.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://linkedin.stack.network
 - type: x-authentication

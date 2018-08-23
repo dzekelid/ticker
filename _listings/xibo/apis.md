@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Ticker
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +20,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
   humanURL: http://www.xibo.org.uk
   baseURL: https:////api
-  tags: Signs, Signage, Display, New, Relative Data, Service API
+  tags: Signs, Signage, Display, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/xibo/playlistwidgettickerplaylistid-post-postman.md
@@ -48,6 +48,8 @@ x-common:
   url: https://twitter.com/xibosignage
 - type: x-website
   url: http://www.xibo.org.uk
+- type: x-api-gallery
+  url: http://xero.api.gallery.streamdata.io
 - type: x-blog
   url: https://blog.xibo.org.uk/
 - type: x-website
