@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28851-api-
 x-kinRank: "7"
 x-alexaRank: "892881"
 tags: Ticker
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/cryptagio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Cryptagio
-  x-api-slug: cryptagio
-  description: -public--private-methodstable--thead--tr-----td-bpublic-methodsb-td----td-bprivate-methodsb-td--tr--thead--tr-----td-no-authorization-required-td----td-authorization-required-td--trtable-authorization--to-use-private-methods-you-need-to-get-your-accesssecret-key-first-on-cryptagio-comhttpscryptagio-com--after-signed-up-and-verified-visit-api-tokens-page-to-get-your-keys----p-all-requests-to-the-private-methods-require-these-headershr--table--tr-----td-bxpublickeyb-td----td-your-access-key-td--tr--tr-----td-bxtonceb-td----td-tonce-is-a-timestamp-in-integer-stands-for-microseconds-elapsed-since-unix-epoch--tonce-must-be-within-30-seconds-of-servers-current-time--each-tonce-can-only-be-used-once-td--tr--tr-----td-bxsignatureb-td----td-signature-of-the-api-request-generated-by-you-use-your-secret-key-td--tr--table--hr----signaturefor-signature-use-ed25519httped25519-cr-yp-to--sign-the-message-using-your-secret-key-and-return-a-signed-message-----signature--signmessage-secret-key-message-is-a-combination-of-requestbody-uri-and-tonce-string----message--requestbodyuritonce--table--tr-----td-irequestbodyi-td----td-requestbody-in-the-json-format--required-only-for-post-methods-td--tr--tr-----td-iurii-td----td-request-path-like-ordersmylimit50orderdesc-td--tr--tr-----td-itonce-i-td----td-timestamp-in-integer-stands-for-microseconds-elapsed-since-unix-epoch-td--tr--tablemessage-examples-p-post-message-marketethbtcsidebidamount1price0-07typelimitorders1531816217872000000-p-get-message-ordersmylimit50orderdesc1531816217872000000hr--examplesp-curl-x-post-httpsapi-cryptagio-comorders-h-accept-applicationjson-h-xtonce-1531816217872000000-h-xsignature-signature-h-xpublickey-your-access-key-h-contenttype-applicationjson-d-marketbtcethsidebidamount1price0-07typelimit-p-curl-x-get-httpsapi-cryptagio-comordersmylimit50orderdesc-h-accept-applicationjson-h-xtonce-1531816217872000000-h-xsignature-signature-h-xpublickey-your-access-key
+- name: Cryptagio API - Get Ticker
+  x-api-slug: ticker-get
+  description: Get ticker of all markets..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28851-api-cryptagio-com.jpg
   humanURL: http://www.cryptagio.com
   baseURL: https:////
@@ -24,17 +24,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/cryptagio/ticker-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/cryptagio/ticker-get-openapi.md
-- name: Cryptagio
-  x-api-slug: cryptagio
-  description: Cryptagio is a global crypto exchange, providing a simple, fast and
-    secure way to buy, sell or trade the world&rsquo;s most eminent digital assets.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28851-api-cryptagio-com.jpg
-  humanURL: http://www.cryptagio.com
-  baseURL: https:////
-  tags: Ticker
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/cryptagio/openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/@cryptagio
