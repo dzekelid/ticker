@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: Ticker
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/hitbtc/publicticker-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/hitbtc/publicticker-get-openapi.md
+- name: HitBTC API - Ticker For Symbol
+  x-api-slug: publictickersymbol-get
+  description: Ticker for symbol.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/hitbtc/publictickersymbol-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/hitbtc/publictickersymbol-get-openapi.md
 - name: HitBTC API - Ticker For Symbol
   x-api-slug: publictickersymbol-get
   description: Ticker for symbol.
