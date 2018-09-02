@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-bloc
 x-kinRank: "8"
 x-alexaRank: "3499"
 tags: Ticker
-created: "2018-08-28"
-modified: "2018-08-28"
+created: "2018-09-01"
+modified: "2018-09-01"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ticker/master/_listings/blockchain/apis.md
 specificationVersion: "0.14"
 apis:
